@@ -1,10 +1,11 @@
 class Settings():
     def __init__(self):
         self.screen_width = 1030
-        self.screen_height = 700
+        self.screen_height = 600
         self.bg_color = (230,230,230)
 
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
 
         #Bullet Settings
         self.bullet_speed_factor = 2
